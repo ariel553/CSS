@@ -1,0 +1,11 @@
+div
+h2 + p {background-color: yellow;}
+
+ 
+  .contenido p  {color: blue;}
+
+  .adicional{
+     color: rgb(8, 29, 25);}
+  .tarjeta p~p {margin: 12px; }
+
+
