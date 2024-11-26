@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+ 
+.container {
+    text-align: center;
+}
+ 
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ 
+
+.icon-list {
+    list-style: none;
+    padding: 0;
+}
+ 
+.icon-list li {
+    position: relative;
+    margin: 10px 0;
+    padding-left: 25px;
+    font-size: 1.2em;
+}
+ 
+
+.icon-list li::before {
+    content: "\2714"; 
+    position: absolute;
+    left: 0;
+    color: #4CAF50; 
+    font-size: 1.2em;
+}
+ 
+
+.icon-list-alternate {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+ 
+.icon-list-alternate li {
+    position: relative;
+    margin: 10px 0;
+    padding-left: 25px;
+    font-size: 1.2em;
+}
+ 
+.icon-list-alternate li::before {
+    content: "\2022"; 
+    position: absolute;
+    left: 0;
+    color: #2196F3; 
+    font-size: 1.2em;
+}
+ 

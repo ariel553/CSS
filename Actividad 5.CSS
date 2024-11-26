@@ -40,7 +40,7 @@ body {
 }
 
 
-.boton:hover{background-color: black;}
+.boton:hover{background-color: rgb(187, 101, 101);}
 
 
 #contenedor2 .boton:active {

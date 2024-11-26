@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(41, 47, 126);
+}
+body nav, main{
+    margin-top: 35px;
+}
+ 
+nav #div1, #div2, #div3{
+    display: inline;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+#div1, #div2, #div3{
+    background-color: rgb(167, 167, 240);
+}
+section{
+    background-color: rgb(73, 81, 194);
+    width: 500px;
+}
+main section, aside{
+    display: inline-block;
+}
+
+aside{
+    background-color: rgb(73, 81, 194);
+    width: 250px;
+    height: 130px;
+}
+aside div{
+    background-color: rgb(93, 99, 192);
+    width: 90px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+ 
