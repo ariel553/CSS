@@ -40,12 +40,12 @@
    
   .hijo2 {
     position: absolute;
-    top: 60px;
+    top: 20px;
     left: 65%;
-    width: 30%;  
+    width: 33%;  
     height: 270px;
-    background-color: lightgray;
-    border: 2px solid gray;
+    background-color: rgb(219, 217, 217);
+    border: 2px solid rgb(117, 110, 110);
     text-align:start;
     line-height: 60px;
     z-index: 1;
@@ -53,23 +53,23 @@
    
   .hijo3 {
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     left: 58%;
     width: 40%;  
     height: 170px;
-    background-color: pink;
+    background-color: rgb(211, 148, 158);
     text-align: justify;
   }
    
   .bloque3 {
     position: relative;
-    background-color: rgb(231, 231, 75);
+    background-color: rgb(238, 238, 6);
     width: 60%;
     height: 200px;
     margin: -50px auto 0 auto;
     text-align: justify;
     line-height: 100px;
     z-index: 1;
-    top: -170px;
+    top: -160px;
   }
   

@@ -1,0 +1,174 @@
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: rgb(30, 35, 92);
+        margin: 0;
+        padding: 0;
+    }
+ 
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+ 
+    nav #div1, #div2, #div3 {
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(100, 100, 190);
+        border-radius: 10px;
+    }
+ 
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+ 
+    section {
+        width: 95%;
+        padding: 10px;
+        background-color: rgb(50, 60, 200);
+        border-radius: 10px;
+    }
+ 
+    aside {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+ 
+    aside div {
+        width: 30%;
+        height: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: rgb(100, 110, 200);
+    }
+}
+ 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: rgb(30, 35, 92);
+        margin: 0;
+        padding: 0;
+    }
+ 
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+ 
+    nav #div1, #div2, #div3 {
+        padding: 10px 15px;
+        border-radius: 50px;
+        background-color: rgb(100, 100, 190);
+    }
+ 
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+    }
+ 
+    section {
+        width: 90%;
+        padding: 20px;
+        background-color: rgb(50, 60, 200);
+        border-radius: 10px;
+    }
+ 
+    aside {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: flex-start;
+        padding: 10px;
+        background-color: rgb(70, 80, 180);
+        border-radius: 10px;
+    }
+ 
+    aside div {
+        width: 35%;
+        height: 35px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: rgb(100, 110, 200);
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1224px){
+    body{
+        background-color: rgb(40, 45, 122);
+    }
+    body nav, main{
+        margin-top: 40px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    nav #div1, #div2, #div3{
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 10px;
+    }
+    #div1, #div2, #div3{
+        background-color: rgb(160, 160, 214);
+    }
+    main{
+        display: flex;
+        justify-content: space-between;
+     
+    }
+    section{
+        background-color: rgb(37, 49, 218);
+        width: 820px;
+    }
+    aside{
+        background-color: rgb(59, 66, 168);
+        width: 240px;
+        height: 360px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: flex-start;
+    }
+    aside div{
+        text-align: center;
+        background-color: rgb(93, 99, 192);
+        width: 88px;
+        height: 32px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 6px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+    }
+ 
+}

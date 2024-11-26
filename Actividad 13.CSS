@@ -1,0 +1,83 @@
+div {
+    height: 180px;
+    width: 180px;
+    margin: 30px;
+    text-align: center;
+    align-content: center ;
+}
+ 
+body {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;    
+    flex-direction: row;
+    color: white;
+   
+}
+ 
+.bloque1 {
+    background-color: #d68373;
+   
+}
+.bloque2 {
+    background-color: #c8a6db;
+}
+.bloque3 {
+    background-color: #4d88b3;
+}
+.bloque4 {
+    background-color: #90bedf;
+}
+.bloque5 {
+    background-color: #38c583;
+}
+.bloque6 {
+    background-color:#f1c668;
+}
+.bloque7 {
+    background-color: #d17b1f;
+}
+.bloque8 {
+    background-color: #c2c9ce;
+    border: #000000;
+}
+.bloque9 {
+    background-color: #263a4b;
+}.bloque10 {
+    background-color: #000000;
+}
+ 
+
+.bloque1:hover {
+    background-color: #22a322;
+   
+}
+.bloque2:hover {
+    font-size: xx-large;
+}
+.bloque3:hover {
+    color: #e2223c;
+}
+.bloque4:hover {
+    line-height: 300px;
+}
+.bloque5:hover {
+    border-radius: 20px;
+}
+.bloque6:hover {
+    box-shadow: 15px 15px 30px #413939;
+}
+.bloque7:hover {
+    opacity: 0.5;
+}
+.bloque8:hover {
+    border: 10px;
+    border-color: #000000;
+}
+.bloque9:hover {
+    margin-top: 60px;
+}.bloque10:hover {
+    padding: 30px;
+}
+ 
+ 
+    
